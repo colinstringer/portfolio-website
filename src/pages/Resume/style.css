@@ -1,0 +1,74 @@
+.page {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-areas: ". resume .";
+  background-color: rgb(250, 250, 250);
+}
+
+.resume {
+  grid-area: resume;
+  background-color: #0e2535;
+  margin: 100px 0px 200px;
+  padding: 10px;
+  min-height: 80vh;
+  color: white;
+  box-shadow: 0 2px 8px 5px rgba(0, 0, 0, 0.35);
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  background-color: #173d57;
+  padding: 30px 20px;
+}
+
+.header a {
+  color: white;
+}
+
+.header h1 {
+  color: #37bea5;
+  margin-top: 0px;
+}
+
+.header h2 {
+  font-size: 18px;
+}
+
+.header img {
+  border-radius: 50%;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: 8fr 2fr 8fr 1fr;
+  grid-template-areas: "left . right .";
+  padding: 20px;
+}
+
+.left-content {
+  grid-area: left;
+}
+
+.right-content {
+  grid-area: right;
+}
+
+.body h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.body p {
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.body hr {
+  border: 1px solid #37bea5;
+}
+
+.body a {
+    color: white;
+}
