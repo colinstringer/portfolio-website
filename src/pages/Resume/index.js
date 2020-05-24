@@ -31,20 +31,25 @@ function resume() {
               <a
                 href="https://www.linkedin.com/in/colin-stringer-64b47a12a/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 LinkedIn
               </a>
             </p>
             <p>
               <FaGithub /> •{" "}
-              <a href="https://github.com/colinstringer" target="_blank">
+              <a
+                href="https://github.com/colinstringer"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Github
               </a>
             </p>
           </div>
           <div className="header-image">
             <br />
-            <img src="https://i.ibb.co/DV0MxMw/profile-pic.jpg" width="180px" />
+            <img src="https://i.ibb.co/DV0MxMw/profile-pic.jpg" alt="profile pic" width="180px" />
           </div>
         </div>
         <div className="body">
@@ -75,12 +80,20 @@ function resume() {
             <p style={{ fontStyle: "italic" }}>Ede, 2019</p>
             <h3>Math tutoring</h3>
             <p>
-              I tutored high school students ranging from classes 1 through 5 on all levels (vmbo, havo and vwo)
+              I tutored high school students ranging from classes 1 through 5 on
+              all levels (vmbo, havo and vwo)
             </p>
-            <p>In 2017 I helped havo students prepare for their final math exams</p>
-            <p style={{ fontStyle: "italic" }}>Arnhem, Ede, Veenendaal, 2013-2017</p>
+            <p>
+              In 2017 I helped havo students prepare for their final math exams
+            </p>
+            <p style={{ fontStyle: "italic" }}>
+              Arnhem, Ede, Veenendaal, 2013-2017
+            </p>
             <h3>Math teaching</h3>
-            <p>In 2014 and 2015 I was given the opportunity to teach 20 math classes in 2 different high schools</p>
+            <p>
+              In 2014 and 2015 I was given the opportunity to teach 20 math
+              classes in 2 different high schools
+            </p>
             <p style={{ fontStyle: "italic" }}>Arnhem, 2014 • Didam, 2015</p>
             <br />
             <h2>
@@ -110,6 +123,7 @@ function resume() {
               <a
                 href="https://github.com/colinstringer/code-library-client"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Github link to project's front-end
               </a>
@@ -119,6 +133,7 @@ function resume() {
               <a
                 href="https://github.com/colinstringer/code-library-server"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Github link to project's back-end
               </a>

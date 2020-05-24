@@ -1,0 +1,70 @@
+.motivation {
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-areas: ". container .";
+  background-color: rgb(220, 220, 220);
+}
+
+.motivation p {
+  font-size: 1.1rem;
+  line-height: 1.5em;
+  text-indent: 15px;
+}
+
+.motivation-container {
+  grid-area: container;
+
+  background-color: #0e2535;
+  min-width: 500px;
+  margin: 100px 0px 200px;
+  padding: 30px 50px;
+  box-shadow: 0 2px 8px 5px rgba(0, 0, 0, 0.35);
+  min-height: 80vh;
+  color: white;
+}
+
+.motivation-grid {
+  display: grid;
+  gap: 6rem;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "motivation-left motivation-right";
+}
+
+@media only screen and (max-width: 1200px) {
+  .motivation-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "motivation-right"
+    "motivation-left";
+  }
+}
+
+.motivation-left {
+  grid-area: motivation-left;
+}
+
+.motivation-right {
+  grid-area: motivation-right;
+}
+.motivation-right p {
+  text-indent: 0px;
+}
+.motivation h1 {
+  font-size: 3rem;
+}
+
+.motivation hr {
+  border: 1px solid #37bea5;
+}
+
+.mid-hr {
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 1200px) {
+  .mid-hr {
+    visibility: visible;
+  }
+}

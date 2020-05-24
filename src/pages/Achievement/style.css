@@ -1,0 +1,61 @@
+.achievement {
+  min-height: 100vh;
+  background-image: url(../../images/bg6.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: #02020c9f;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "achievement-left achievement-right";
+  gap: 3rem;
+
+  color: rgb(211, 211, 211);
+  padding: 100px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .achievement {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "text-area"
+      "achievement-left "
+      "achievement-right";
+    gap: 3rem;
+
+    padding: 50px;
+  }
+}
+
+.text-area {
+  grid-area: text-area;
+
+  margin-bottom: 50px;
+}
+
+.achievement-left {
+  grid-area: achievement-left;
+}
+
+.achievement-right {
+  grid-area: achievement-right;
+}
+
+@font-face {
+  font-family: playfair;
+  src: url(../../fonts/Playfair/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+.achievement p {
+  font-family: playfair;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.achievement img {
+  max-width: 100%;
+  height: auto;
+  max-height: 900px;
+}

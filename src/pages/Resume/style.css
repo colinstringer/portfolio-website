@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
   grid-template-areas: ". resume .";
-  background-color: rgb(250, 250, 250);
+  background-color: rgb(220, 220, 220);
 }
 
 .resume {
@@ -11,6 +11,7 @@
   margin: 100px 0px 200px;
   padding: 10px;
   min-height: 80vh;
+  min-width: 500px;
   color: white;
   box-shadow: 0 2px 8px 5px rgba(0, 0, 0, 0.35);
 }
@@ -44,6 +45,17 @@
   grid-template-columns: 8fr 2fr 8fr 1fr;
   grid-template-areas: "left . right .";
   padding: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .body {
+    display: grid;
+  grid-template-columns: 8fr 2fr;
+  grid-template-areas: 
+  "right"
+  "left";
+  padding: 20px;
+  }
 }
 
 .left-content {

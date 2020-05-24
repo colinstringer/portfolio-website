@@ -1,0 +1,154 @@
+.grid {
+  min-height: 100vh;
+  background-image: url(../../images/bg3.jpg);
+  background-size: cover;
+  background-position: center;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "card1 card2 card3"
+    "card4 card2 card5";
+  grid-template-rows: repeat(2, 50%);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #02020c9f;
+  font-size: 2.2rem;
+  color: #fff;
+  transition: all 400ms ease-in-out;
+}
+
+.card1 {
+  grid-area: card1;
+}
+
+.card2 {
+  grid-area: card2;
+
+  align-items: flex-start;
+  padding: 40px;
+}
+
+.card3 {
+  grid-area: card3;
+}
+
+.card4 {
+  grid-area: card4;
+}
+
+.card5 {
+  grid-area: card5;
+}
+
+.card:hover {
+  background: #03031abf;
+}
+
+.card2:hover {
+  background: #02020c9f;
+}
+
+.card h1 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  opacity: 0.7;
+  transition: all 2500ms;
+}
+
+@font-face {
+  font-family: playfair;
+  src: url(../../fonts/Playfair/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+.card h2 {
+  font-family: playfair;
+  font-size: 1.6rem;
+  font-weight: 400;
+  opacity: 0.7;
+  transition: all 2500ms;
+}
+
+.card h3 {
+  font-size: 2.2rem;
+  font-weight: 400;
+  opacity: 0.3;
+  transition: all 2500ms;
+}
+
+.card:hover h3 {
+  opacity: 1;
+  transition: all 600ms;
+}
+
+.card a {
+  font-size: 1rem;
+  font-weight: 900;
+  font-family: Helvetica, sans-serif;
+  text-decoration: none;
+
+  padding: 10px 30px;
+  color: white;
+  border: white 2px solid;
+  border-radius: 25px;
+
+  opacity: 0;
+  transition: 2500ms;
+}
+
+.card:hover a {
+  opacity: 1;
+  transition: 1500ms;
+  transition-delay: 400ms;
+}
+
+.project {
+  display: "flex";
+  flex-direction: "row";
+}
+
+.card .code {
+  margin-right: 20px;
+  color: rgb(0, 100, 0);
+  border: rgb(0, 100, 0) 3px solid;
+}
+
+.card .demo {
+  color: rgb(195, 127, 0);
+  border: rgb(195, 127, 0) 3px solid;
+}
+
+@media only screen and (max-width: 1000px) {
+  .grid {
+    grid-template-columns: 2fr 3fr 2fr;
+  }
+
+  .card h1 {
+    font-size: 1.1rem;
+  }
+  .card h2 {
+    font-size: 1.1rem;
+  }
+  .card h3 {
+    font-size: 1.3rem;
+  }
+
+  .card a {
+    font-size: 0.8rem;
+    padding: 7px 20px;
+  }
+
+  .project {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card .code {
+    margin: 0 0 10px 0;
+  }
+}

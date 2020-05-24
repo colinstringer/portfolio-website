@@ -3,7 +3,8 @@ import { Switch, Route } from "react-router-dom";
 
 import Resume from "./pages/Resume/index";
 import Home from "./pages/Home";
-import Letter from "./pages/Letter";
+import Motivation from "./pages/Motivation";
+import Achievement from "./pages/Achievement";
 
 export default function App() {
   return (
@@ -12,8 +13,11 @@ export default function App() {
         <Route path="/resume">
           <Resume />
         </Route>
-        <Route path="/letter">
-          <Letter />
+        <Route path="/motivation">
+          <Motivation />
+        </Route>
+        <Route path="/achievement">
+          <Achievement />
         </Route>
         <Route path="/">
           <Home />
