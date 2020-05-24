@@ -30,7 +30,7 @@ function Home() {
         <div className="project">
           <a
             className="code"
-            href="https://github.com/users/colinstringer/projects/3"
+            href="https://github.com/colinstringer/portfolio-website/projects/1"
             target="_blank"
             rel="noopener noreferrer"
           >
