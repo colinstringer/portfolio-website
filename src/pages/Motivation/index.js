@@ -63,18 +63,10 @@ function Motivation() {
             <br />
             <hr />
             <br />
-            <h2>What do I have to offer?</h2>
-            <p>
-              Ambition to attain the skill level of a medior developer within a
-              few months! Not just by working hard, but efficiently and
-              intelligently.
-            </p>
-            <p>I'm constantly looking how to decrease complexity in systems.</p>
-            <p>I love agile development, even when I work solo.</p>
-            <p>
-              This may become more relevant in a later stage of my dev carreer:
-              I love coaching people.
-            </p>
+            <h2>My top 3 qualities as a developer</h2>
+            <p>• Lightning fast in learning new technologies and languages</p>
+            <p>• A high level of independence</p>
+            <p>• Efficiency is my middle name</p>
             <br />
             <hr className="mid-hr" />
           </div>
