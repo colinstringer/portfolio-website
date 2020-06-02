@@ -17,7 +17,7 @@ function Home() {
           Hi, I'm Colin!
           <br /> Welcome to my portfolio website
         </h1>
-        <h2>I'm a junior front end web developer who is looking for work</h2>
+        <h2>I'm a junior full stack web developer who is looking for work</h2>
       </div>
       <div className="card card3">
         <h3>Job motivation</h3>
