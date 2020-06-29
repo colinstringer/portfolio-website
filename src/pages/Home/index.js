@@ -26,18 +26,18 @@ function Home() {
         </a>
       </div>
       <div className="card card4">
-        <h3>Portfolio project</h3>
+        <h3>My latest project</h3>
         <div className="project">
           <a
             className="code"
-            href="https://github.com/colinstringer/portfolio-website/projects/1"
+            href="https://github.com/colinstringer/puzzle"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaGithub /> code
           </a>
           <a
-            href="https://the-code-library.netlify.app/"
+            href="https://colins-puzzle.netlify.app/"
             className="demo"
             target="_blank"
             rel="noopener noreferrer"
