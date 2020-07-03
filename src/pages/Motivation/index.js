@@ -66,7 +66,7 @@ function Motivation() {
             <h2>My top 3 qualities as a developer</h2>
             <p>• Lightning fast in learning new technologies and languages</p>
             <p>• A high level of independence</p>
-            <p>• Efficiency is my middle name</p>
+            <p>• No challenge feels too great for me to handle</p>
             <br />
             <hr className="mid-hr" />
           </div>
